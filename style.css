@@ -1,0 +1,159 @@
+body {
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+header {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gold;
+  color: black;
+  font-size: 4rem;
+  font-weight: 1000;
+}
+.wrapper {
+  background-color: rgb(163, 163, 0);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.taskMaker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.input {
+  padding-left: 1rem;
+  background-color: #222;
+  width: 100%;
+  height: 8vh;
+  font-size: 2rem;
+  border-radius: 0rem;
+  border: 0;
+  color: silver;
+  outline: none;
+  margin: 0;
+}
+
+.plus {
+  background-color: #222;
+  color: silver;
+  width: 20%;
+  border: 0;
+  height: 8.3vh;
+  border-radius: 0;
+  transition: 0.3s;
+  margin: 0;
+  padding: 0;
+}
+.plus:hover {
+  background-color: rgb(0, 110, 255);
+  color: white;
+  width: 20%;
+  margin: 1rem;
+  height: 8.3vh;
+  transition: 0.3s;
+  margin: 0;
+  padding: 0;
+}
+.list {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+hr {
+  margin: 0.2rem;
+  border: 0;
+  height: 0.01rem;
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.item {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  background-color: #222;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  padding-left: 1rem;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.doneB {
+  background-color: #222;
+  color: silver;
+  width: 10%;
+  border: 0;
+  height: 100%;
+  border-radius: 0;
+  transition: 0.3s;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 142, 0);
+  font-size: 2rem;
+  transition: 0.3;
+}
+.doneB:hover {
+  background-color: rgb(0, 142, 0);
+  color: silver;
+  width: 10%;
+  border: 0;
+  height: 100%;
+  border-radius: 0;
+  transition: 0.3s;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 2rem;
+  transition: 0.3;
+}
+.deleteB {
+  background-color: #222;
+  color: silver;
+  width: 10%;
+  border: 0;
+  height: 100%;
+  border-radius: 0;
+  transition: 0.3s;
+  margin: 0;
+  font-size: 2rem;
+  padding: 0;
+  color: red;
+  transition: 0.3;
+}
+.deleteB:hover {
+  background-color: rgb(220, 0, 0);
+  color: silver;
+  width: 10%;
+  border: 0;
+  height: 100%;
+  border-radius: 0;
+  transition: 0.3s;
+  margin: 0;
+  font-size: 2rem;
+  padding: 0;
+  color: white;
+  transition: 0.3;
+}
